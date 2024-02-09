@@ -23,7 +23,6 @@ $('.search-form form').submit(function(){
 	return false;
 });
 ");
-phpinfo();
 ?>
 
 <div class="panel panel-default">

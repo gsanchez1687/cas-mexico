@@ -94,7 +94,7 @@ class Status extends CActiveRecord
 		return parent::model($className);
 	}
         
-        public  function estado($statu_id = null, $valor = null){          
+        public static function estado($statu_id = null, $valor = null){          
             if($statu_id == 1){
                 $valor = '<span style="color:#3498db" class="label label_rma ">En revision <i class="fa fa-cog"></i></span>';
             }elseif ($statu_id == 2){

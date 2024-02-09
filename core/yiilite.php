@@ -2656,7 +2656,7 @@ class CHttpRequest extends CApplicationComponent
 	{
 		return $_SERVER['SERVER_PORT'];
 	}
-	public function getUrlReferrer()
+	public static function getUrlReferrer()
 	{
 		return isset($_SERVER['HTTP_REFERER'])?$_SERVER['HTTP_REFERER']:null;
 	}

@@ -733,7 +733,7 @@ class CHttpRequest extends CApplicationComponent
 	 * Returns the URL referrer, null if not present
 	 * @return string URL referrer, null if not present
 	 */
-	public function getUrlReferrer()
+	public static function getUrlReferrer()
 	{
 		return isset($_SERVER['HTTP_REFERER'])?$_SERVER['HTTP_REFERER']:null;
 	}
